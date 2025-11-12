@@ -50,7 +50,7 @@ pnpm install
 # 302AI 支付平台配置
 PAY302_APP_ID=你的应用ID
 PAY302_SECRET=你的应用密钥
-PAY302_API_URL=https://api.302.ai/payment/create
+PAY302_API_URL=https://api.302.ai/v1/checkout
 
 # 调试模式 (可选)
 IS_DEBUG=true
@@ -71,8 +71,8 @@ pnpm dev
 ### 5. 构建生产版本
 
 ```bash
-npm run build
-npm run start
+pnpm run build
+pnpm run start
 ```
 
 ## 📖 核心功能说明
