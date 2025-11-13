@@ -13,7 +13,7 @@ interface PaymentResponse {
 }
 
 export default function Home() {
-  const [amount, setAmount] = useState('39.99');
+  const [amount, setAmount] = useState('0.01');
   const [userName, setUserName] = useState('Franklin Santos');
   const [email, setEmail] = useState('ron@ehido.kp');
   const [loading, setLoading] = useState(false);
